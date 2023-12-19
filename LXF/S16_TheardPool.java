@@ -9,7 +9,7 @@ SingleThreadExecutor：仅单线程执行的线程池。
  * 
 */
 
-public class Adv_TheardPool_16 {
+public class S16_TheardPool {
     public static void main(String[] args) {
         // 创建一个固定大小的线程池:
         ExecutorService es = Executors.newFixedThreadPool(4);
