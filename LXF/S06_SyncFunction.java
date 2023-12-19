@@ -1,4 +1,4 @@
-public class SyncFunction_6 {
+public class S06_SyncFunction {
     
 /*
  * Below 2 approaches are equal
