@@ -7,7 +7,7 @@ Timed Waiting：运行中的线程，因为执行sleep()方法正在计时等待
 Terminated：线程已终止，因为run()方法执行完毕。
 */
 
-public class ThreadStatus_2 {
+public class S02_ThreadStatus {
     
     public static void main(String[] args) throws InterruptedException {
         Thread t = new Thread(() -> {
@@ -15,7 +15,7 @@ public class ThreadStatus_2 {
         });
         System.out.println("start");
         t.start();
-        t.join(); // 主线程等待t线程执行
+        t.join(); // 主线程等待t线程执行. in C#, similar function is Wait().  t.Wait()有点不好理解；如果用 Task.Wait(t) 就容易理解，就是主线程停在那里等待。
         System.out.println("end");
     }
 
