@@ -1,7 +1,7 @@
 import java.util.concurrent.locks.*;
 import java.util.*;
 
-public class Adv_StampedLock_12 {
+public class S12_StampedLock {
     
 }
 
