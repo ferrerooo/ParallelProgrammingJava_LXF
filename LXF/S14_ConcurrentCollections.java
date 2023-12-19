@@ -21,6 +21,6 @@ Map threadSafeMap = Collections.synchronizedMap(unsafeMap);
  * 
 */
 
-public class Adv_ConcurrentCollections_14 {
+public class S14_ConcurrentCollections {
     
 }
