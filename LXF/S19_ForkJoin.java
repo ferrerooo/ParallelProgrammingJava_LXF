@@ -6,7 +6,7 @@ C#里类似的功能， https://github.com/ferrerooo/ParallelProgrammingCSharp/b
 
 */
 
-public class Adv_ForkJoin_19 {
+public class S19_ForkJoin {
     public static void main(String[] args) throws Exception {
         // 创建2000个随机数组成的数组:
         long[] array = new long[2000];
