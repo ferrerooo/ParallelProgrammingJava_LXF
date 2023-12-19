@@ -1,6 +1,11 @@
 import java.util.Random;
 import java.util.concurrent.*;
 
+/*
+C#里类似的功能， https://github.com/ferrerooo/ParallelProgrammingCSharp/blob/main/S5_32ParallelInvokeForForeach.cs
+
+*/
+
 public class Adv_ForkJoin_19 {
     public static void main(String[] args) throws Exception {
         // 创建2000个随机数组成的数组:
