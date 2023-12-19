@@ -1,6 +1,6 @@
 import java.util.concurrent.*;
 
-public class Adv_Semaphore_13 {
+public class S13_Semaphore {
     
 }
 
