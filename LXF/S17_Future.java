@@ -1,6 +1,12 @@
 import java.util.concurrent.*;
 
-public class Adv_Future_17 {
+/*
+Future的存在感觉是设计上的一个 workaround，它是为了 能够得到线程返回的结果。
+对比C#，C#用Task<T> 就实现了java 里Future的功能。 参见https://github.com/ferrerooo/ParallelProgrammingCSharp/blob/main/S1_03CreatingAndStartingTasks.cs
+
+*/
+
+public class S17_Future {
     
     public static void main(String[] args) throws Exception{
         // 创建一个固定大小的线程池:
