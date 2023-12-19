@@ -1,4 +1,4 @@
-public class NewThreadCreation_1 {
+public class S01_NewThreadCreation {
     
     public static void main(String[] args) {
         Thread t = new MyThread();
