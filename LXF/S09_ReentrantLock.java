@@ -1,7 +1,7 @@
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
 
-public class Adv_ReentrantLock_9 {
+public class S09_ReentrantLock {
     
 
 
