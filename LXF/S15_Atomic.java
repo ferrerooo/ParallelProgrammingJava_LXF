@@ -13,7 +13,7 @@ Atomic类是通过无锁（lock-free）的方式实现的线程安全（thread-s
  * 
 */
 
-public class Adv_Atomic_15 {
+public class S15_Atomic {
     
 }
 
