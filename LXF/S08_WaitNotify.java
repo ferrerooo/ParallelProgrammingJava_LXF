@@ -16,7 +16,7 @@
 import java.util.*;
 
 
-public class WaitNotify_8 {
+public class S08_WaitNotify {
     public static void main(String[] args) throws InterruptedException {
         var q = new TaskQueue();
         var ts = new ArrayList<Thread>();
