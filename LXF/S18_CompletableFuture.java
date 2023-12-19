@@ -1,5 +1,18 @@
 import java.util.concurrent.CompletableFuture;
 
+/*
+感觉和Future类似，这个CompletableFuture也是Java设计上的一个补丁，本可以做的更好，就是说不需要引入新的类 进而增加了复杂性。
+
+CompletableFuture可以指定异步处理流程：
+
+thenAccept()处理正常结果；
+exceptional()处理异常结果；
+thenApplyAsync()用于串行化另一个CompletableFuture；
+anyOf()和allOf()用于并行化多个CompletableFuture。
+
+参见C#里的 更加一致的语法设计 https://github.com/ferrerooo/ParallelProgrammingCSharp/blob/main/S1_06WaitingForTasks.cs
+*/
+
 public class Adv_CompletableFuture_18 {
     
     public static void main(String[] args) throws Exception {
