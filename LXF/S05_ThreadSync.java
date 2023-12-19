@@ -1,4 +1,4 @@
-public class ThreadSync_5 {
+public class S05_ThreadSync {
     
     public static void main(String[] args) throws Exception {
         var add = new AddThread();
