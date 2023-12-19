@@ -1,4 +1,4 @@
-public class ThreadInterruption_3 {
+public class S03_ThreadInterruption {
 
     public static void main(String[] args) throws InterruptedException {
         
@@ -75,3 +75,7 @@ class HelloThread32 extends Thread {
         System.out.println("end!");
     }
 }
+
+/*
+C# version：https://github.com/ferrerooo/ParallelProgrammingCSharp/blob/main/S1_04CancellingTasks.cs
+*/
