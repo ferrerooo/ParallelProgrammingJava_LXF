@@ -1,7 +1,7 @@
 import java.util.concurrent.locks.*;
 import java.util.*;
 
-public class Adv_ReadWriteLock_11 {
+public class S11_ReadWriteLock {
     
 }
 
