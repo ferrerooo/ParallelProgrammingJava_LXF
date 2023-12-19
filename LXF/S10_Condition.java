@@ -1,7 +1,7 @@
 import java.util.concurrent.locks.*;
 import java.util.*;
 
-public class Adv_Condition_10 {
+public class S10_Condition {
     
 }
 
